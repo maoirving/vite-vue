@@ -1,6 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@types/node': ^17.0.8
   '@typescript-eslint/eslint-plugin': ^5.9.0
   '@typescript-eslint/parser': ^5.0.0
   '@vitejs/plugin-vue': ^2.0.0
@@ -30,6 +31,7 @@ dependencies:
   vuex: 4.0.2_vue@3.2.26
 
 devDependencies:
+  '@types/node': 17.0.8
   '@typescript-eslint/eslint-plugin': 5.9.0_c05e6fca5974c04442e7c260534af929
   '@typescript-eslint/parser': 5.9.0_eslint@7.32.0+typescript@4.5.4
   '@vitejs/plugin-vue': 2.0.1_vite@2.7.10+vue@3.2.26
@@ -166,6 +168,10 @@ packages:
 
   /@types/json5/0.0.29:
     resolution: {integrity: sha1-7ihweulOEdK4J7y+UnC86n8+ce4=}
+    dev: true
+
+  /@types/node/17.0.8:
+    resolution: {integrity: sha512-YofkM6fGv4gDJq78g4j0mMuGMkZVxZDgtU0JRdx6FgiJDG+0fY0GKVolOV8WqVmEhLCXkQRjwDdKyPxJp/uucg==}
     dev: true
 
   /@typescript-eslint/eslint-plugin/5.9.0_c05e6fca5974c04442e7c260534af929:
