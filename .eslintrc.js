@@ -5,7 +5,7 @@ module.exports = {
     node: true,
     'vue/setup-compiler-macros': true,
   },
-  extends: ['plugin:vue/vue3-essential', 'standard', '@vue/prettier'],
+  extends: ['plugin:vue/vue3-essential', 'standard'],
   parserOptions: {
     ecmaVersion: 13,
     parser: '@typescript-eslint/parser',
