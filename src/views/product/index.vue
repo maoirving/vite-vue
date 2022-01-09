@@ -7,6 +7,7 @@ const { products } = useProductList()
 
 <template>
   <div class="product-list-page">
+    <router-link to="/">back Home</router-link>
     <h2>product lister</h2>
     <ul class="product-list">
       <li v-for="(product, index) in products" :key="index" class="product-list-item">
