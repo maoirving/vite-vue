@@ -17,5 +17,7 @@ module.exports = {
     'space-before-function-paren': 0, // 函数前空格
     'comma-dangle': ['error', 'only-multiline'], // 拖尾逗号
     'max-len': ['error', { code: 200 }], // 强制最大行长度
+    '@typescript-eslint/no-unused-vars': [2],
+    'vue/multi-word-component-names': 0,
   },
 }
